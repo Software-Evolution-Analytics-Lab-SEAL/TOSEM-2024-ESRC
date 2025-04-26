@@ -11,6 +11,13 @@ The current implementation is not, in any way, intended, nor able to generate co
 We could not emphasize enough that this project is experimental and shared for educational purposes only. 
 Both the source code and the datasets are provided to foster future research in software engineering and are not designed for end users.
 
+### Dataset
+The dataset related to this replication package can be downloaded from:
+https://drive.google.com/file/d/13zRyXyGUgGDcNHXiolx6niDZ7CcA7qFx/view?usp=sharing
+- commits_logs/ folder contains all studied commits.
+- clones/ folder contains the clone detection results.
+- The remaining folders are part of the structure required to run the replication package.
+
 ### Key components
 
 **SRC**: The src/ directory contains all the scripts and implementations of the experiments in the paper. Each process is organized into separate files for clarity and modularity.
@@ -24,9 +31,6 @@ Both the source code and the datasets are provided to foster future research in 
 - 6_combine_metrics_label.py: map features to the corresponding label.   
 - 7_model_training_parallel.py: use the tree classifiers and train the 60 project in parallel.   
 
-
-The dataset related to this replication package can be downloaded from:
-https://drive.google.com/file/d/1huPlVaoDQ9ks6HNH9UXIH5zCSi0vPQ70/view?usp=sharing
 
 **Data**: The data/ directory includes the retired szz analysis result, just keep it in case it will be used in the future.
 
